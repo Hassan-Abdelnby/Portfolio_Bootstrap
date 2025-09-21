@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#hero p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+#hero-name, #hero-text {
+  border-right: 2px solid white; 
+  white-space: wrap;
+  overflow: hidden;
+}
+
+#hero-text {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+#projects h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+
+.project-img {
+  width: 100%;
+  height: 220px;         
+  object-fit: 100% 100%;       
+  object-position: center;
+  display: block;
+  border-top-left-radius: 0.5rem;  
+  border-top-right-radius: 0.5rem;
+}
+
+#contact {
+  background: #f8f9fa;
+  padding: 60px 0;
+}
+#contact h2 {
+  margin-bottom: 20px;
+}
+#contact .btn {
+  padding: 10px 24px;
+  border-radius: 30px;
+}
+
+footer {
+  background: #212529;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .project-img { height: 150px; } 
+}
